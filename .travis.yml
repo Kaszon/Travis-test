@@ -38,18 +38,19 @@ before_script:
 #    - $HOME/.gradle/wrapper/
 #    - $HOME/.android/build-cache
 script:
-    - sportmates_frontend/gradlew build assembleRelease
+    - sportmates_frontend/gradlew build
+#    - sportmates_frontend/gradlew build assembleRelease
 #    - sportmates_frontend/gradlew connectedAndroidTest
 #    - sportmates_frontend/gradlew sportmates_frontend/app/src/androidTest/java/hu/application/sportmates/controller/LoginActivityTest
 #    - sportmates_frontend/gradlew sportmates_frontend/app/src/androidTest/java/hu/application/sportmates/controller/RegistrationActivityTest
-deploy:
-  - provider: releases
-    api_key:
-      ProjektToolsApp           
-    file: app/build/outputs/apk/app-release.apk
-    on:
-      repo: Kaszon/Travis-test
-      tags: true
+#deploy:
+#  - provider: releases
+#    api_key:
+#      ProjektToolsApp           
+#    file: app/build/outputs/apk/app-release.apk
+#    on:
+#      repo: Kaszon/Travis-test
+#      tags: true
 branches:
         only:
                 - master
