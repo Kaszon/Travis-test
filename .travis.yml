@@ -3,15 +3,18 @@ android:
         components:
                 - platform-tools
                 - build-tools-23.0.1
-                - android-23
+                - android-26
                 - extra-android-m2repository
 notifications:
   email: false
 before_install:
         - chmod +x sportmates_frontend/gradlew
-        - /sportmates_backend/ mvn install
-        - /sportmates_backend/ mvnw spring-boot:run
-#before_script:
+        #- /sportmates_backend/ mvn install
+        #- /sportmates_backend/ mvnw spring-boot:run
+before_script:
+        - cd sportmates_backend
+        - mvn install
+        - mvnw spring-boot:run
 #  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
 #  - emulator -avd test -no-audio -no-window &
 #  - android-wait-for-emulator
