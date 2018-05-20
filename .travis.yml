@@ -9,6 +9,8 @@ notifications:
   email: false
 before_install:
         - chmod +x sportmates_frontend/gradlew
+        - mvn install
+        - mvnw spring-boot:run --path sportmates_backend/
 #before_script:
 #  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
 #  - emulator -avd test -no-audio -no-window &
@@ -23,7 +25,7 @@ before_install:
 #    - $HOME/.gradle/wrapper/
 #    - $HOME/.android/build-cache
 script:
-    - sportmates_frontend/gradlew build check
+    - sportmates_frontend/gradlew build
 branches:
         only:
                 - master
