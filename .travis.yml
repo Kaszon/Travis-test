@@ -30,7 +30,8 @@ before_script:
 #    - $HOME/.android/build-cache
 script:
     - sportmates_frontend/gradlew build
-    - sportmates_frontend/gradlew connectedCheck
+    - sportmates_frontend/gradlew sportmates_frontend/app/src/androidTest/java/hu/application/sportmates/controller/LoginActivityTest
+    - sportmates_frontend/gradlew sportmates_frontend/app/src/androidTest/java/hu/application/sportmates/controller/RegistrationActivityTest
 branches:
         only:
                 - master
