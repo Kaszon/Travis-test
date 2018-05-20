@@ -16,7 +16,6 @@ before_script:
         - mvn install
         - nohup mvn spring-boot:run &
         - cd ..
-        - cd sportmates_frontend
 #  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
 #  - emulator -avd test -no-audio -no-window &
 #  - android-wait-for-emulator
@@ -30,8 +29,8 @@ before_script:
 #    - $HOME/.gradle/wrapper/
 #    - $HOME/.android/build-cache
 script:
-    - ./gradlew build
-    - ./gradlew connectedCheck 
+    - sportmates_frontend/gradlew build
+    - sportmates_frontend/gradlew connectedCheck
 branches:
         only:
                 - master
