@@ -22,7 +22,7 @@ cache:
 script:
         - ./gradlew build
 before_install:
-        - chmod +x --path sportmates_frontend/gradlew
+        - chmod +x sportmates_frontend/gradlew
 branches:
         only:
                 - master
