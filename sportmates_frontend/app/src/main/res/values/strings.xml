@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SportMates</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="loginUserName">Felhasználónév</string>
+    <string name="loginPassword">Jelszó</string>
+
+    <string name="sportmates_main">SportMates - Főoldal</string>
+    <string name="sportmates_profile">SportMates - Saját profil</string>
+    <string name="sportmates_my_events">SportMates - Eseményeim</string>
+    <string name="sportmates_login">SportMates - Bejelentkezés</string>
+    <string name="sportmates_registration">SportMates - Regisztráció</string>
+
+    <string name="button_login">Bejelentkezés</string>
+    <string name="button_register">Regisztráció</string>
+    <string name="button_confirm">Véglegesítés</string>
+
+    <string name="button_create_new_event">Létrehoz</string>
+
+    <string name="regist_firstname">Keresztnév</string>
+    <string name="regist_lastname">Vezetéknév</string>
+    <string name="regist_password">Jelszó</string>
+    <string name="regist_male">Férfi</string>
+    <string name="regist_female">Nő</string>
+
+    <string name="nav_header_welcome">Üdvözöllek Sporttárs</string>
+    <string name="main_nearby_events">Közelben lévő események</string>
+
+    <string name="my_events_activity_header">Eseményeim</string>
+
+    <string name="new_event_header">Új esemény létrehozása</string>
+    <string name="event_country">Ország</string>
+    <string name="event_city">Város</string>
+
+    <string name="event_add">Új esemény felvételéhez kattints a gombra</string>
+    <string name="event_remove">Eseményről való lejelentkezéshez kattints a szemetesre</string>
+
+    <string name="event_details_header">Esemény részletei</string>
+    <string name="event_details_remove">Lejelentkezéshez kattints a szemetesre</string>
+    <string name="event_name">Esemény neve</string>
+    <string name="event_audience">Jelentkezők neme</string>
+    <string name="event_category">Kategória</string>
+    <string name="event_date_of_event">Esemény napja</string>
+    <string name="event_start_date">Esemény kezdete</string>
+    <string name="event_end_date">Esemény vége</string>
+
+    <string name="event_date_of_event_hint">Esemény napja 2018-12-31</string>
+    <string name="event_start_date_hint">Esemény kezdete 10:00:00</string>
+    <string name="event_end_date_hint">Esemény vége 15:00:00</string>
+
+
+    <string name="event_price">Ár</string>
+    <string name="event_headcount">Létszám</string>
+    <string name="event_locale">Helyszín</string>
+    <string name="event_description">Leírás</string>
+
+    <string name="profile_activity_header">Adataim</string>
+    <string name="profile_name">Név</string>
+    <string name="profile_username">Felhasználónév</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_birthdate">Születési idő</string>
+    <string name="profile_locale">Lakhely</string>
+    <string name="profile_phone_number">Telefonszám</string>
+    <string name="profile_back_text">Vissza</string>
+
+    <string name="nav_menu_profile">Profil beállításai</string>
+    <string name="nav_menu_my_events">Eseményeim</string>
+    <string name="nav_menu_add_new_event">Új esemény hozzáadása</string>
+    <string name="nav_menu_logout">Kijelentkezés</string>
+
+</resources>
